@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+C:\Users\Stay_Away\Documents\GitHub\PCSMA\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+977246741.index
+3933262960.index
+3071870831.index
+2538627754.index
+2123667345.index

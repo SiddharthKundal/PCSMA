@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Request Maker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="getButton">GET</string>
+    <string name="postButton">POST</string>
+    <string name="putButton">PUT</string>
+    <string name="deleteButton">DELETE</string>
+    <string name="getPageHeader">Execute GET Request</string>
+    <string name="tvName">Name: </string>
+    <string name="tvIndex">Index: </string>
+    <string name="tvAuthor">Author: </string>
+    <string name="tvLength">Length: </string>
+    <string name="tvLink">Link: </string>
+    <string name="tvRating">Rating: </string>
+    <string name="buttonPostExecute">Add Video (POST)</string>
+    <string name="buttonDeleteExecute">Remove Video (DELETE)</string>
+    <string name="buttonPutExecute">Edit Video (PUT)</string>
+
+</resources>

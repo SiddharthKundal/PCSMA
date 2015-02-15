@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/buttonGET"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="#000000"
+        android:text="@string/getButton"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonPUT"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#000000"
+        android:text="@string/putButton"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="18sp" 
+        android:layout_below="@id/buttonGET"/>
+
+    <Button
+        android:id="@+id/buttonPOST"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#000000"
+        android:text="@string/postButton"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/buttonPUT"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonDELETE"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#000000"
+        android:textStyle="bold"
+        android:text="@string/deleteButton"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/buttonPOST"
+        android:textSize="18sp" />
+
+</RelativeLayout>
