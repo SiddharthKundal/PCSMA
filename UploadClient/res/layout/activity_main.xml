@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/buttonPOST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UploadFile" />
+
+    <Button
+        android:id="@+id/buttonSHOW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Hosted File Button" />
+
+    <TextView
+        android:id="@+id/showHosted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dummy text for now ... click show files button" />
+
+</LinearLayout>
